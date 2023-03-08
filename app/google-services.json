@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "581980148438",
+    "firebase_url": "https://kingpin-ea9a9-default-rtdb.firebaseio.com",
+    "project_id": "kingpin-ea9a9",
+    "storage_bucket": "kingpin-ea9a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581980148438:android:0f22782746b68b9985af77",
+        "android_client_info": {
+          "package_name": "com.kingpin.auction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581980148438-1jpt045chjr9er2l8msbopk2i6gacjit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgpsMKtP3gF6EjTfKAPdu3WOHigrAHY3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581980148438-1jpt045chjr9er2l8msbopk2i6gacjit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581980148438:android:5c465fb2558a4e0485af77",
+        "android_client_info": {
+          "package_name": "com.kingpin.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581980148438-1jpt045chjr9er2l8msbopk2i6gacjit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgpsMKtP3gF6EjTfKAPdu3WOHigrAHY3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581980148438-1jpt045chjr9er2l8msbopk2i6gacjit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

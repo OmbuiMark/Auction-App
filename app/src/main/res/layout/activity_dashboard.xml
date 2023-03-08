@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    tools:context=".Dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Dashboard"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:clickable="true"
+            android:rowCount="4"
+            android:layout_margin="18dp"
+            android:layout_gravity="center_horizontal"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addBid"
+                android:layout_width="170dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_height="170dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="17dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@color/grey"
+
+                    >
+                    <ImageView
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/input"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Bid"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/incomingItems"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="17dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@color/grey"
+
+                    >
+                    <ImageView
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/ic_twotone_arrow_drop_down_circle_24"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Incoming items"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"/>
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/userDetails"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:elevation="5dp"
+                android:clickable="true"
+                app:cardCornerRadius="17dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@color/grey"
+
+                    >
+                    <ImageView
+                        android:layout_width="54dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/admin"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="User details"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"/>
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/visitMarket"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:elevation="5dp"
+                app:cardCornerRadius="17dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@color/grey"
+
+                    >
+                    <ImageView
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/market"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Visit market"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"/>
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/help"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:elevation="5dp"
+                app:cardCornerRadius="17dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@color/grey"
+
+                    >
+                    <ImageView
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/care"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Helpline"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"/>
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/exitapp"
+                android:clickable="true"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:elevation="5dp"
+                app:cardCornerRadius="17dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@color/grey"
+
+                    >
+                    <ImageView
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/exit"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exit"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"/>
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
